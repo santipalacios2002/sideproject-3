@@ -1,3 +1,9 @@
-const User = require('./User');
+const TestModel = require('./TestModel');
+const Book = require('./Book');
+const Teacher = require('./Teacher');
+const Student = require('./Student');
+const Log = require('./Log');
 
-module.exports = { User };
+
+
+module.exports = { TestModel, Book, Teacher, Student, Log };
