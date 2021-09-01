@@ -54,6 +54,12 @@ const typeDefs = gql`
 
   type Query {
     test: [TestModel]
+    me: Teacher
+  }
+
+  type Mutation {
+    login(email: String!, password: String!): Teacher
+    addUser(email: String!, password: String!): Teacher
   }
 `;
 
