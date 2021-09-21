@@ -1,11 +1,9 @@
-export default function Footer() {
+function Footer({ year }) {
     return (
-        <footer id="footer" className="relative z-50 bg-dk-gray">
-            <div className="flex flex-col justify-center items-center">
-                <p className="my-2 text-xs lg:text-sm leading-none text-lt-gray">
-                    2021 Bookworm Classroom Library Management. All Rights Reserved.
-                </p>
-            </div>
-        </footer>
-    )
+        <div className="w-full bg-gray-200 text-center py-1">
+            <p className="text-dark">{year} Bookworm Classroom Library Managment. All Rights Reserved</p>
+        </div>
+    );
 }
+
+export default Footer;
