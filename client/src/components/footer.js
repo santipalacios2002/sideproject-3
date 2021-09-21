@@ -6,4 +6,5 @@ function Footer({ year }) {
     );
 }
 
+
 export default Footer;
